@@ -413,6 +413,7 @@ public class VentanaConsultaPartidoController implements Initializable {
 
         //crearVentanaJugador()
         Scene scene = new Scene(vboxroot);
+        s.setTitle("Detalle de equipos");
         s.setScene(scene);
         s.show();
     }
